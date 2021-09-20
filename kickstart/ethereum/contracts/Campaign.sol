@@ -102,7 +102,7 @@ contract Campaign {
         );
     }
 
-    function getRequestCount() public view returns (uint256) {
+    function getRequestsCount() public view returns (uint256) {
         return requests.length;
     }
 }
